@@ -1,0 +1,43 @@
+PORTOS
+
+http://www.marinetraffic.com/pt/ais/details/ports/2478/Brazil_port:BELEM
+
+http://www.marinetraffic.com/pt/ais/details/ports/686/Brazil_port:VILA%20DO%20CONDE
+
+http://www.marinetraffic.com/pt/ais/details/ports/19051/Brazil_port:ICOARACHI
+
+
+
+--------------------
+NAVIOS NO PORTO
+http://www.marinetraffic.com/pt/ais/index/ships/range/port_id:2478/port_name:BELEM
+
+http://www.marinetraffic.com/pt/ais/index/ships/range/port_id:2478/port_name:BELEM
+
+--------------------
+CHEGADAS PREVISTAS
+http://www.marinetraffic.com/pt/ais/index/eta/all/port:2478/portname:BELEM
+
+- pega as linhas da tabela
+$($($("table")[0]).find(" tbody tr"))
+
+- pega o valor da linha 1  
+$($($("table")[0])
+.find(" tbody tr")[1]).find("a")[1].href
+
+--------------------
+BUSCAR NAVIO
+
+http://www.marinetraffic.com/pt/ais/index/ships/range/shipname:577007000
+
+--------------------
+OBTER RESULTADO 
+$("table tbody tr td a")[0].href
+
+"http://www.marinetraffic.com/pt/ais/details/ships/shipid:1323740/imo:6505777/mmsi:577007000/vessel:JEAN%20CHARCOT"
+--------------------
+
+FLEETMON
+http://www.fleetmon.com/pt/ports/Vila_do_Conde_2961
+
+--------------------

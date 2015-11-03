@@ -1,0 +1,11 @@
+{
+    "name": "af-node-base",
+    "version": "0.0.1",
+    "dependencies": {
+        "cheerio": "*",
+        "request": "*",
+        "underscore.string": "*",
+        "underscore": "*",
+        "express": "^4.10.2"
+    }
+}

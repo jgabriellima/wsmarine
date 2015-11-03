@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/stark/local/bin/node',
+1 verbose cli   '/home/stark/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json af-node-base@0.0.1 No description
+5 warn package.json af-node-base@0.0.1 No repository field.
+6 warn package.json af-node-base@0.0.1 No README data
+7 error install Couldn't read dependencies
+8 error SyntaxError: Unexpected end of input
+8 error     at Object.parse (native)
+8 error     at /home/stark/local/lib/node_modules/npm/lib/install.js:295:24
+8 error     at evalmachine.<anonymous>:271:14
+8 error     at /home/stark/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
+8 error     at Object.oncomplete (evalmachine.<anonymous>:107:15)
+9 error If you need help, you may report this *entire* log,
+9 error including the npm and node versions, at:
+9 error     <http://github.com/npm/npm/issues>
+10 error System Linux 3.11.0-26-generic
+11 error command "/home/stark/local/bin/node" "/home/stark/local/bin/npm" "install"
+12 error cwd /home/stark/Dropbox/NodeProjects/wsmarine
+13 error node -v v0.10.32
+14 error npm -v 1.4.28
+15 error type unexpected_eos
+16 verbose exit [ 1, true ]
